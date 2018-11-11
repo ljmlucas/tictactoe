@@ -1,0 +1,6 @@
+#Size of the playground (Ex: 5)
+size:5
+#Players symbols. One character per line.
+player:X
+computer:W
+player:Y
