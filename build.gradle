@@ -37,3 +37,6 @@ dependencies {
 	compile 'org.apache.commons:commons-lang3:3.6'
 }
 
+run {
+    standardInput = System.in
+}

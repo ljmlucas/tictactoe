@@ -63,10 +63,10 @@ set CMD_LINE_ARGS=%*
 :execute
 @rem Setup the command line
 
-set CLASSPATH=%APP_HOME%\lib\tictactoe.jar;%APP_HOME%\lib\commons-math3-3.6.1.jar;%APP_HOME%\lib\guava-23.0.jar;%APP_HOME%\lib\jsr305-1.3.9.jar;%APP_HOME%\lib\error_prone_annotations-2.0.18.jar;%APP_HOME%\lib\j2objc-annotations-1.1.jar;%APP_HOME%\lib\animal-sniffer-annotations-1.14.jar
+set CLASSPATH=%APP_HOME%\lib\tictactoe.jar;%APP_HOME%\lib\commons-math3-3.6.1.jar;%APP_HOME%\lib\commons-lang3-3.6.jar;%APP_HOME%\lib\guava-23.0.jar;%APP_HOME%\lib\jsr305-1.3.9.jar;%APP_HOME%\lib\error_prone_annotations-2.0.18.jar;%APP_HOME%\lib\j2objc-annotations-1.1.jar;%APP_HOME%\lib\animal-sniffer-annotations-1.14.jar
 
 @rem Execute tictactoe
-"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %TICTACTOE_OPTS%  -classpath "%CLASSPATH%" game.TicTacToe %CMD_LINE_ARGS%
+"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %TICTACTOE_OPTS%  -classpath "%CLASSPATH%" game.Main %CMD_LINE_ARGS%
 
 :end
 @rem End local scope for the variables with windows NT shell

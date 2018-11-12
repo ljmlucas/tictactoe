@@ -20,12 +20,6 @@ public class ConsoleInOutTest {
 	}
 
 	@Test
-	public void shouldReturnFalseIfInputIsNotValid() {
-		ConsoleInOut console = new ConsoleInOut();
-		assertTrue(console.isInputValid("wfas3,das 2"));
-	}
-
-	@Test
 	public void shouldReturnTrueIfPositionIsValid() {
 		ConsoleInOut console = new ConsoleInOut();
 		Position position = new Position(1, 3);
