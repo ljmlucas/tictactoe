@@ -99,17 +99,5 @@ public class TicTacToeTest {
 		verify(spyTictactoe.getConsole(), times(1)).showWinner(winner);
 	}
 	
-//	@Test
-//	public void shouldPlayerPlayIfIsHuman() {
-//		List<Player> players = buildPlayers();
-//		TicTacToe tictactoe = mock(TicTacToe.class);//new TicTacToe(3, players);
-//		TicTacToe spyTictactoe = spy(tictactoe);
-//		Player currentPlayer = players.get(0);
-//		doNothing().when(spyTictactoe).play(currentPlayer);
-//
-//		spyTictactoe.play(currentPlayer);
-//
-//		verify(spyTictactoe, times(1)).playerPosition(currentPlayer);
-//	}
 
 }
